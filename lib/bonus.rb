@@ -22,8 +22,8 @@ def bonus
 
   #code your solution here: this is to change the status from alive to dead
  
- epic_tragedy[:patriarch][:matriarch][:hero][status:] = "dead",
-epic_tragedy[:patriarch][:matriarch][:heroine][status:] = "dead"
+ epic_tragedy[:patriarch][:matriarch][:hero][:status:] = "dead",
+epic_tragedy[:patriarch][:matriarch][:heroine][:status] = "dead"
 
 puts epic_tragedy
   
